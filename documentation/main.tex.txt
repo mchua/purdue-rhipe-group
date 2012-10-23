@@ -1,0 +1,67 @@
+\documentclass[11pt]{article}
+%\usepackage{amssymb}
+%\usepackage{amsmath}
+%\usepackage{amstext}
+%\usepackage{amscd}
+%\usepackage{amsthm}
+%\usepackage{chicago}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{times}
+\usepackage{multicol}
+%\usepackage{subfigure}
+\usepackage{pslatex}
+\usepackage{graphicx}
+\usepackage{algorithmic}
+\usepackage{fancyvrb}
+%\usepackage{program}
+\usepackage[longnamesfirst ,super,sort]{natbib}
+\bibpunct{(}{)}{;}{a}{,}{,}
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0in}
+\setlength{\topmargin}{0in}
+\setlength{\evensidemargin}{0in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\textwidth}{6.5in}
+\setlength{\textheight}{9in}
+
+\setlength{\marginparsep}{0in}
+\setlength{\parindent}{0ex}
+\setlength{\parskip}{0.5ex}
+
+\newcommand{\myitemize}{\begin{itemize}\vspace*{-.25ex}}
+\newcommand{\myitem}{\item\vspace*{-1.5ex}}
+\newcommand{\mysubitem}{\item\vspace*{-1ex}}
+
+\newcommand{\bb}{\color{blue} \bf}
+\newcommand{\rb}{\color{red} \bf}
+\newcommand{\br}{\color{blue}}
+\newcommand{\rr}{\color{red}}
+
+\author{
+Mallory L. Chua\\
+Cheng Liu\\
+Jorge Arturo Alfaro Murillo,\\
+Wu Han\\
+Qiming Huang\\
+Kyle D. Bemis\\
+Robert D. Ness\\
+Xiaosu Tong
+}
+
+\title{
+STAT695V: R/RHIPE/Hadoop for D\&R
+}
+\date{}
+\begin{document}
+\maketitle
+
+\input installrhipe
+
+\input compare_RHadoop
+
+%\input li271
+
+%\bibliographystyle{plainnat}
+%\bibliography{references}
+
+\end{document}

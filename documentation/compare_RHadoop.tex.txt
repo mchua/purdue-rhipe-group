@@ -1,0 +1,9 @@
+\section{RHIPE vs RHadoop}
+While several programming frameworks for Hadoop exist, only very few serve the needs of data analysts who work primarily in the R environment.  RHIPE is one of such frameworks, another is  RHadoop.
+RHadoop is open-source framework developed by commercial firm Revolution Analytics.  Like RHIPE, it allows R programmers to work with data stored in Hadoop.  Users use RHadoop by installing the package "rmr" in R.
+Both RHIPE and RHadoop have similar goals:  to $(1)$ write map-reduce jobs easily (with minimal code as compared to Java), $(2)$ in a way that is intuitive to R developers.
+The goal of this section is to compare RHIPE and RHadoop in terms of ease of use and efficiency.  We do so by applying both tools to 3 different test cases.
+%What are appropriate test cases?
+%What is the appropriate standard for comparing efficiency? system.time()?
+%Is it possible that rhstatus() will give me hadoop output that can be used to compare?
+%There is some approach called a combiner, meaning doing local reduction. This means performing the reducer operation locally on the same node where task is running, before finally sending the key/value pairs to the final reducer.   Doing this increases performance.  Perhaps another standard for comparing these two frameworks is ease in which such performance increasing tasks can be implemented, assuming such tasks are well-documented and commonly-used.
