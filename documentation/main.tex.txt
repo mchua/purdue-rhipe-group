@@ -38,7 +38,7 @@
 \newcommand{\rr}{\color{red}}
 
 \author{
-Mallory L. Chua\\
+Mel Chua\\
 Cheng Liu\\
 Jorge Arturo Alfaro Murillo,\\
 Wu Han\\
