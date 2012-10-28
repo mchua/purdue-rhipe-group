@@ -1,0 +1,16 @@
+In case you are interested in learning LaTeX, I think that the best
+way to do it is with the wikibooks.
+
+You can start here:
+
+http://en.wikibooks.org/wiki/LaTeX/Basics
+
+For this project, Professor Cleveland created a script so that you do
+not have to complicate with learning LaTeX. The main idea is that you
+just have to add text to each one of the .tex files (except main.tex)
+that are in the documentation directory, and after you finish you can
+use the script, just type:
+
+layout
+
+This will create the file main.pdf with all the documentation.
